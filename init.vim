@@ -43,3 +43,13 @@ colorscheme gruvbox
 let g:Tlist_Ctags_Cmd='/usr/local/Cellar/ctags/5.8_1/bin/ctags'
 
 set updatetime=300
+
+" --- Just Some Notes ---
+" need node >= 14, npm, python3
+" :PlugClean :PlugInstall :UpdateRemotePlugins
+"
+" :CocInstall coc-python
+" :CocInstall coc-clangd
+" :CocInstall coc-snippets
+" :CocCommand snippets.edit... FOR EACH FILE TYPE
+" yarn install coc.vim file
